@@ -52,8 +52,8 @@ export interface SiteKeepaliveResult {
  * Database and collection IDs used by appwrite-keepalive
  */
 export const KEEPALIVE_CONFIG = {
-  DATABASE_ID: "keepalive",
-  DATABASE_NAME: "Keepalive",
+  DATABASE_ID: "main",
+  DATABASE_NAME: "Main",
   COLLECTION_ID: "heartbeats",
   COLLECTION_NAME: "Heartbeats",
   DOCUMENT_ID: "status",
